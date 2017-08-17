@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Github Api</string>
+    <string name="lang">Language</string>
+    <string name="locate">Location</string>
+    <string name="search">Search</string>
+    <string name="name">Full Name</string>
+    <string name="bio">User bio Information </string>
+    <string name="repos">REPOS</string>
+    <string name="following">FOLLOWING</string>
+    <string name="followers">FOLLOWERS</string>
+    <string name="txtNumber">0</string>
+    <string name="itemName">Username</string>
+    <string name="lname">Login Name</string>
+    <string name="gitLink">GitHub webpage</string>
+    <string name="editLang">Language eg. Java</string>
+    <string name="editLocate">Location: eg. Lagos</string>
+    <string name="menuTxt">0</string>
+    <string name="menuBg">UserImg</string>
+</resources>

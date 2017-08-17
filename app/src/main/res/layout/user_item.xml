@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/rvItem"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/valueTen"
+    android:layout_marginTop="@dimen/cardCorner"
+    android:layout_marginStart="@dimen/mLeftTop"
+    android:layout_marginEnd="@dimen/mRightBtm"
+    android:layout_marginBottom="@dimen/valueTen"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/itemImg"
+            android:layout_height="@dimen/itemImg"
+            android:id="@+id/dispImg"
+            android:layout_marginLeft="@dimen/mLeftTop"
+            android:layout_marginTop="@dimen/valueTen"
+            android:layout_marginBottom="@dimen/valueTen"
+            android:src="@drawable/pholder"/>
+
+        <TextView
+            android:id="@+id/dispName"
+            android:layout_marginTop="@dimen/valueTwenty"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_marginLeft="@dimen/valueTwenty"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dispImg"
+            android:text="@string/itemName"/>
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

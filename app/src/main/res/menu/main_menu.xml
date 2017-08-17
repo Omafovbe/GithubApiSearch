@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+      tools:context="com.fovbe.githubapi.MainActivity">
+    <item android:id="@+id/menuUsers"
+        android:title="@string/menuTxt"
+        app:showAsAction="always"/>
+    <item android:id="@+id/menuUsersbg"
+        android:title="@string/menuBg"
+        android:icon="@drawable/ic_person"
+        app:showAsAction="ifRoom"/>
+</menu>

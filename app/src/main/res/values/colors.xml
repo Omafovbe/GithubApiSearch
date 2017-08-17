@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9c163a</color>
+    <color name="colorPrimaryDark">#590d21</color>
+    <color name="colorAccent">#1565c0</color>
+    <color name="btnColor">#a835ef</color>
+    <color  name="userDetails">#d8c2b6</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="viewColor">#9c7066</color>
+    <color name="repoBg">#4d000000</color>
+    <color name="rvItem">#d9ffffff</color>
+    <color name="fabSearch">#1565c0</color>
+    <color name="fabRefresh">#43a047</color>
+    <color name="progressCircle">#e23664</color>
+    <color name="gradientLight">#76112c</color>
+    <color name="gradientDark">#350812</color>
+    <color name="gradientCenter">#590d21</color>
+</resources>

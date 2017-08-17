@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:id="@+id/rlmain"
+    tools:context="com.fovbe.githubapi.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_anchorGravity="top"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:scrollbars="vertical" />
+
+    <ProgressBar
+        android:id="@+id/progBar22"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/valueTen"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:layout_gravity="bottom|center"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabRefresh"
+        android:layout_gravity="bottom|end"
+        android:background="@color/fabRefresh"
+        app:fabSize="mini"
+        android:onClick="refreshList"
+        android:visibility="invisible"
+
+        android:layout_marginBottom="@dimen/fabrefresh"
+        android:layout_marginEnd="@dimen/fabRight"
+        android:src="@drawable/ic_refresh"
+        app:elevation="@dimen/mRLeft"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabSearch"
+        app:pressedTranslationZ="@dimen/fabPressed"
+        android:layout_gravity="bottom|end"
+        android:visibility = "invisible"
+        app:fabSize="mini"
+        android:onClick="searchQry"
+        android:layout_marginBottom="@dimen/fabsearch"
+        android:layout_marginEnd="@dimen/fabRight"
+        android:layout_marginRight="@dimen/fabRight"
+        android:src="@drawable/ic_search"
+        app:elevation="@dimen/mRLeft"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/mLeftTop"
+        android:src="@drawable/ic_add"
+        android:clickable="true"
+        android:onClick="fabMenu"
+        app:pressedTranslationZ="@dimen/fabPressed"
+        app:elevation="@dimen/mRLeft" />
+
+</android.support.design.widget.CoordinatorLayout>
+

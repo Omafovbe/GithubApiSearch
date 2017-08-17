@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mRLeft">4dp</dimen>
+    <dimen name="cardCorner">5dp</dimen>
+    <dimen name="mRRight">4dp</dimen>
+    <dimen name="mLeftTop">16dp</dimen>
+    <dimen name="mRightBtm">16dp</dimen>
+    <dimen name="userPadding">50dp</dimen>
+    <dimen name="valueTen">10dp</dimen>
+    <dimen name="repoInfoTop">80dp</dimen>
+    <dimen name="proCircle">100dp</dimen>
+    <dimen name="valueTwenty">20dp</dimen>
+    <dimen name="imgWH">180dp</dimen>
+    <dimen name="btnLeft">12dp</dimen>
+    <dimen name="itemImg">50dp</dimen>
+    <dimen name="fabsearch">80dp</dimen>
+    <dimen name="fabRight">24dp</dimen>
+    <dimen name="fabrefresh">125dp</dimen>
+    <dimen name="fabPressed">12dp</dimen>
+    <dimen name="nameTxt">18sp</dimen>
+
+</resources>
